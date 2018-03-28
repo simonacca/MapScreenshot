@@ -16,6 +16,14 @@
 		"default_icon": "camera.png",
 		"default_title": "Screenshot"
 	},
+	"commands": {
+		"take-screenshot": {
+            "suggested_key": {
+              "default": "Ctrl+Y"
+            },
+            "description": "Take screenshot"
+		}
+	},
 	"permissions": ["tabs", "<all_urls>", "activeTab", "downloads"],
 	"manifest_version": 2
 }
