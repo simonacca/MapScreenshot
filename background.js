@@ -7,7 +7,7 @@ var screenshot = {
 				quality : 100
 			}, function(data) {
 				let name = tab.url
-				name = name.substring(name.lastIndexOf("@") + 1, name.lastIndexOf("z"));
+				name = name.substring(name.lastIndexOf("@") + 1, name.lastIndexOf("m"));
 				chrome.downloads.download({
    				    url: data,
    		     		filename: "maps/" + name + ".png"
